@@ -8,5 +8,9 @@ public class DemoController {
     public String message(){
     return "Hello From Bridgelabs";
     }
+    @RequestMapping(value = "/quaryparam",method = RequestMethod.GET)
+    public String message1(@RequestParam String message){
+        return message;
+    }
 
 }
