@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 public class DemoController {
     @RequestMapping(value="/message",method= RequestMethod.GET)
     public String message(){
-    return "Hello basic message";
+    return "Hello From Bridgelabs";
     }
 
 }
